@@ -1,16 +1,3 @@
-<script setup>
-import "@nordhealth/components/lib/Navigation";
-import "@nordhealth/components/lib/Dropdown";
-import "@nordhealth/components/lib/Button";
-import "@nordhealth/components/lib/Icon";
-import "@nordhealth/components/lib/DropdownGroup";
-import "@nordhealth/components/lib/DropdownItem";
-import "@nordhealth/components/lib/NavGroup";
-import "@nordhealth/components/lib/NavItem";
-import "@nordhealth/components/lib/Tooltip";
-import "@nordhealth/components/lib/Select";
-</script>
-
 <template>
   <nord-navigation slot="nav">
     <nord-dropdown slot="header" expand>

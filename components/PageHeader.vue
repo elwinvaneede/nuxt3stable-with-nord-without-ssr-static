@@ -1,6 +1,4 @@
 <script lang="ts" setup>
-import "@nordhealth/components/lib/Header";
-
 const route = useRoute();
 </script>
 
