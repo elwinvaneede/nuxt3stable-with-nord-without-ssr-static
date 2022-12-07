@@ -5,6 +5,13 @@ POC for [Nuxt 3 stable](https://nuxt.com/) together with Nord using client-side 
 Integrated [vue-i18n](https://vue-i18n.intlify.dev/) through a plugin since the Nuxt 3 module is still under development.
 Linked it with `useHead()` to set the correct `lang` and `dir` attributes on the `<html>` element.
 
+## Demo
+
+- [Running on Netlify.com](https://nuxt3stable-with-nord-csr-static.netlify.app/) (static hosting)
+- The dashboard and settings navigation items are interactive.
+- When selecting "Hebrew" as the language the UI is displayed in a right-to-left direction.
+- The "Workspace" card heading & language switcher label change depending on the selected language.
+
 ## Setup
 
 Make sure to install the dependencies:
